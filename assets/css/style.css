@@ -82,7 +82,7 @@ section {
     height: 100vh;
 }
 
-.presentation {
+.sectionSettings {
     padding-top: 10rem;
 }
 
@@ -99,6 +99,7 @@ a {
 .btn-outline-primary {
     color:#b29406!important;
     border-color: #b29406!important;
+    z-index: 2;
 }
 
 .btn-outline-primary:hover {
@@ -239,16 +240,32 @@ h1 {
     }
 
 }
-
-@media screen and (min-width: 376px) and (max-width: 640px) {
-h1 {
-    font-size: 4em!important;
-}
-  
-  }
   
   
   @media screen and (max-width: 375px) {
+    h1 {
+        font-size: 4em!important;
+    }
+
+    .servicesTitle {
+        padding-top: 5rem!important;
+    }
+  
+  }
+
+  @media screen and (min-width: 376px) and (max-width: 640px) {
+    h1 {
+        font-size: 4em!important;
+    }
+    
+    .servicesTitle {
+        padding-top: 5rem!important;
+    }
+      
+      }
+
+  @media screen and (min-width: 768px) and (max-width: 900px) {
+
     h1 {
         font-size: 4em!important;
     }
