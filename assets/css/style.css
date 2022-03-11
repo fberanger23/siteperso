@@ -242,24 +242,24 @@ h1 {
 }
   
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 200px) and (max-width: 375px) {
     h1 {
-        font-size: 4em!important;
+        font-size: 2em!important;
     }
 
     .servicesTitle {
-        padding-top: 5rem!important;
+        padding-top: 15rem!important;
     }
   
   }
 
   @media screen and (min-width: 376px) and (max-width: 640px) {
     h1 {
-        font-size: 4em!important;
+        font-size: 2em!important;
     }
     
     .servicesTitle {
-        padding-top: 5rem!important;
+        padding-top: 17rem!important;
     }
       
       }
